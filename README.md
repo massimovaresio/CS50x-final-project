@@ -5,6 +5,7 @@ This project aims to provide a simple and intuitive currency exchange service. U
 I created this project as a final exercise in the online Harvard University [CS50x Introduction to Computer Science](https://cs50.harvard.edu/x/2024/) course.
 
 **The exchange tool**
+
 I have made an algorithm to calculate currency exchange rates between the currencies currently in use on the European continent.
 The implementation of the calculation is quite simple and to acquire the current exchange rates I use the API of the online service Exchange Rate API found [here](https://exchangeratesapi.io/). The project is built in such a way as to support the exchange of more currencies than those listed, but here I have limited myself to European currencies to simplify the visualization; anyone who consults this project is free to expand it as they prefer in compliance with the Creative Commons license *CC BY-NC-SA 4.0 DEED*.
 Here is the main part of the code for the currency exchange tool:
@@ -86,9 +87,11 @@ amountInput.addEventListener('input', function(event) {
 The rest of the code also includes checks to verify the validity of the contents entered by the user into the form. You can consult the code in the repository files.
 
 **Front-end**
+
 The front-end part includes four pages accessible from the page menu. The front-end was developed using HTML, CSS and [Bootstrap](https://getbootstrap.com/) library. Bootstrap is a library of free tools for creating sites and applications for the Web. It contains design templates based on HTML and CSS, both for typography and for the various interface components, such as forms, buttons and navigation, as well as some optional JavaScript extensions. There are other open source libraries but I used Bootstrap because I consider it very intuitive.
 
 **Back-end and APIs**
+
 The back-end part was developed with Javascript language.
 In reality, talking about back-end in this case is quite inaccurate as there is no real back-end server, but all requests are made on the client side using Javascript code. The controls for the operation of the form on the exchange page have also been entirely implemented with Javascript.
 Exchange rates were instead retrieved using https API calls to the Exchange Rate API service. This is a good service that offers free options; for this project, however, I had to temporarily subscribe to a subscription plan because without that only calls with the http protocol were allowed, and since many browsers currently only support https, errors were often encountered. Some bugs in the Javascript code have been fixed with the help of OpenAI's [ChatGPT](https://chat.openai.com/).
