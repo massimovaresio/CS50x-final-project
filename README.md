@@ -1,5 +1,7 @@
 # EU Currency converter - CS50x final project
-#### Video Demo:  <URL HERE>
+#### Video Demo:  
+[Youtube video](https://youtu.be/nckkzlFAOEU)
+
 #### Description:
 This project aims to provide a simple and intuitive currency exchange service. Users can easily convert between different currencies based on the latest exchange rates.
 I created this project as a final exercise in the online Harvard University [CS50x Introduction to Computer Science](https://cs50.harvard.edu/x/2024/) course.
@@ -95,3 +97,7 @@ The front-end part includes four pages accessible from the page menu. The front-
 The back-end part was developed with Javascript language.
 In reality, talking about back-end in this case is quite inaccurate as there is no real back-end server, but all requests are made on the client side using Javascript code. The controls for the operation of the form on the exchange page have also been entirely implemented with Javascript.
 Exchange rates were instead retrieved using https API calls to the Exchange Rate API service. This is a good service that offers free options; for this project, however, I had to temporarily subscribe to a subscription plan because without that only calls with the http protocol were allowed, and since many browsers currently only support https, errors were often encountered. Some bugs in the Javascript code have been fixed with the help of OpenAI's [ChatGPT](https://chat.openai.com/).
+
+**Important**
+
+Please keep in mind that if you see this project ahead of time it probably won't work because my API KEY will probably be expired or hidden for privacy.
