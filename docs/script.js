@@ -6,6 +6,9 @@ async function performCurrencyExchange(fromCurrency, toCurrency, amount) {
     const apiUrl = `https://api.exchangeratesapi.io/v1/latest?access_key=${apiKey}&base=${fromCurrency}&symbols=${toCurrency}`;
 
     try {
+        // Show an alert about the expired API key; don't include this line if you want to reproduce the code in another context.
+        alert('The call is currently not working because the API KEY has expired. Sorry, this was a temporary project.');
+        
         // Make API request
         const response = await fetch(apiUrl);
         const data = await response.json();
