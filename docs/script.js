@@ -2,7 +2,7 @@
 
 // Function to perform currency exchange
 async function performCurrencyExchange(fromCurrency, toCurrency, amount) {
-    const apiKey = '708b25ffccc1f604ae73615d97938159'; // My actual API key
+    const apiKey = 'API-KEY'; // My actual API key
     const apiUrl = `https://api.exchangeratesapi.io/v1/latest?access_key=${apiKey}&base=${fromCurrency}&symbols=${toCurrency}`;
 
     try {
