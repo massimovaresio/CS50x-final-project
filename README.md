@@ -9,7 +9,7 @@ I created this project as a final exercise in the online Harvard University [CS5
 **The exchange tool**
 
 I have made an algorithm to calculate currency exchange rates between the currencies currently in use on the European continent.
-The implementation of the calculation is quite simple and to acquire the current exchange rates I use the API of the online service Exchange Rate API found [here](https://exchangeratesapi.io/). The project is built in such a way as to support the exchange of more currencies than those listed, but here I have limited myself to European currencies to simplify the visualization; anyone who consults this project is free to expand it as they prefer in compliance with the Creative Commons license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+The implementation of the calculation is quite simple and to acquire the current exchange rates I use the API of the online service Exchange Rate API found [here](https://exchangeratesapi.io/). The project is built in such a way as to support the exchange of more currencies than those listed, but here I have limited myself to European currencies to simplify the visualization; anyone who consults this project is free to expand it as they prefer as described in the license terms of the `LICENSE.md` file.
 Here is the main part of the code for the currency exchange tool:
 ```
 // Function to perform currency exchange
